@@ -20,8 +20,8 @@ float temp;               // Stores temperature value
 
 IRsend irsend;
 bool heat_on = false;
-int target_temp = 22;
-int buffer_below = 1;
+float target_temp = 22;
+float buffer_below = .5;
 bool post_heating = false;
 bool refresh = false;
 
